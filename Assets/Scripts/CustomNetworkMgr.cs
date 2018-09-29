@@ -9,12 +9,12 @@ public class CustomNetworkMgr : MonoBehaviour {
 	void Start()
     {
         
-        var discovery = this.gameObject.GetComponent<CustomNetworkDiscovery>();
-        discovery.Initialize();
-        discovery.broadcastData = "helloword";
+        // var discovery = this.gameObject.GetComponent<CustomNetworkDiscovery>();
+        // discovery.Initialize();
+        // discovery.broadcastData = "helloword";
 
         // discovery.StartAsServer();
-        discovery.StartAsClient();
+        // discovery.StartAsClient();
         
     }
 }
